@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Is Triangle? Fun with Triangles</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="istriangle.html">Angle</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="hypotenuse.html">Hypotenuse</a>
+      <a href="area.html">Area</a>
+    </nav>
+    <div class="container">
+      <h1>Is Triangle?</h1>
+      <p>Enter the three angles of the triangle.</p>
+      <input
+        type="number"
+        id="first-angle"
+        class="angle-input"
+        placeholder="Angle 1"
+      />
+      <input
+        type="number"
+        id="second-angle"
+        class="angle-input"
+        placeholder="Angle 2"
+      />
+      <input
+        type="number"
+        id="third-angle"
+        class="angle-input"
+        placeholder="Angle 3"
+      />
+      <button id="is-triangle" class="btn btn_check">Check</button>
+      <div id="output" class="isTriangle-output"></div>
+    </div>
+  </body>
+  <script src="/istraingle.js"></script>
+</html>

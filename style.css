@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@100;300;400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background:linear-gradient(147deg, rgba(58, 30, 80,0.9), rgba(81, 45, 109,0.5)), url("/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#EEEEEE ;
+}
+
+.container{
+  max-width: 60vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav{
+    background:rgba(238, 238, 238,0.5);
+    box-shadow: 5px 5px 25px 5px rgba(0,0,0,0.2) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > a{
+    align-self: stretch;
+    transition: all .5s;
+    padding: 0.8rem 0;
+    border: 3px solid transparent;
+    color: #EEEEEE;
+}
+nav> a:hover{
+color: rgb(26, 10, 41);
+border-bottom: 3px solid rgb(26, 10, 41);
+}
+
+h1{
+  font-family: 'Playball', cursive;
+}
+.heading
+{
+    font-size: 3rem;
+}
+a{
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+ul{
+  list-style-type: none;
+  
+  margin: 1rem auto;
+  padding: 1rem ;
+}
+ul > li{
+    background-color: rgba(58, 30, 80,0.5);
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 25px;
+    transition: all .5s;
+    border: 1px solid rgba(58, 30, 80,0.9);
+}
+
+ul > li:hover{
+    transform: translateX(5px);
+}
+
+input[type="number"]{
+  width: 70%;
+  padding: 0.3rem 1rem;
+  outline: none;
+  font-size: 1.2rem;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  margin: 0.5rem auto;
+}
+ 
+.btn{
+  display: block;
+  width: 50%;
+  padding: 0.5rem 1rem ;
+  margin: 0.5rem auto;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all .3s;
+  background: rgb(201, 153, 235);
+}
+.btn:hover{
+  transform: scale(1.1);
+  background: rgb(133, 100, 156);
+}
+
+.isTriangle-output, .quiz-output, .hypo-output, .area-output
+{
+   font-size: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    color: #1a0a29;
+    background:rgba(238, 238, 238,0.5);
+    box-shadow: 5px 5px 25px 5px rgba(0,0,0,0.2) ;
+}
+
+.question-container
+{
+    background:rgba(238, 238, 238,0.5);
+    box-shadow: 5px 5px 25px 5px rgba(0,0,0,0.2) ;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.ans-group{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: start;
+}
+.ans-group > label{
+    color: rgb(26, 10, 41);
+}
+
+.area-form{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+.input-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Removing the spin arrow in input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+img{
+    width: 50%;
+    border-radius: 10px;
+    margin: 1rem auto;
+}

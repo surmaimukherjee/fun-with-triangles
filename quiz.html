@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Quiz | Fun with Triangles</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="istriangle.html">Angle</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="hypotenuse.html">Hypotenuse</a>
+      <a href="area.html">Area</a>
+    </nav>
+    <div class="container">
+      <h1>Triangle Quiz</h1>
+      <p>Lets play a quiz on Traingles</p>
+
+      <form class="quiz-form">
+        <div class="question-container">
+          <p>
+            1) What is the third angle for the triangle if angle1 is 45º and
+            angle2 is 45º?
+          </p>
+          <div class="ans-group">
+            <label
+              ><input
+                type="radio"
+                name="question1"
+                value="45º"
+                required
+              />45º</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question1"
+                value="60º"
+                required
+              />60º</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question1"
+                value="90º"
+                required
+              />90º</label
+            >
+          </div>
+        </div>
+        <div class="question-container">
+          <p>2) If a tringle has an angle of 90 degrees, what is it called?</p>
+          <div class="ans-group">
+            <label
+              ><input
+                type="radio"
+                name="question2"
+                value="Acute"
+                required
+              />Acute</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question2"
+                value="Obtuse"
+                required
+              />Obtuse</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question2"
+                value="Right angled"
+                required
+              />Right angled</label
+            >
+          </div>
+        </div>
+        <div class="question-container">
+          <p>
+            3) If a tringle has an angle greater than 90 degrees, what is it
+            called?
+          </p>
+          <div class="ans-group">
+            <label
+              ><input
+                type="radio"
+                name="question3"
+                value="Acute"
+                required
+              />Acute</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question3"
+                value="Obtuse"
+                required
+              />Obtuse</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question3"
+                value="Right angled"
+                required
+              />Right angled</label
+            >
+          </div>
+        </div>
+
+        <div class="question-container">
+          <p>
+            4) If a tringle has an angle less than 90 degrees, what is it
+            called?
+          </p>
+          <div class="ans-group">
+            <label
+              ><input
+                type="radio"
+                name="question4"
+                value="Acute"
+                required
+              />Acute</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question4"
+                value="Obtuse"
+                required
+              />Obtuse</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question4"
+                value="Right angled"
+                required
+              />Right angled</label
+            >
+          </div>
+        </div>
+
+        <div class="question-container">
+          <p>
+            5) If a triangle has 2 sides with equal lengths and 75 degree angle
+            between them. What is the type of triangle?
+          </p>
+          <div class="ans-group">
+            <label
+              ><input
+                type="radio"
+                name="question5"
+                value="Equilateral"
+                required
+              />Equilateral</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question5"
+                value="Isosceles"
+                required
+              />Isosceles</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question5"
+                value="Right angled"
+                required
+              />Right angled</label
+            >
+          </div>
+        </div>
+      </form>
+      <button id="submit-answers" class="btn">Submit</button>
+      <div id="output" class="quiz-output"></div>
+    </div>
+  </body>
+  <script src="/quiz.js"></script>
+</html>

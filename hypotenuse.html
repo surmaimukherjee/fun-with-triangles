@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Hypotenuse | Fun with Triangles</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="istriangle.html">Angle</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="hypotenuse.html">Hypotenuse</a>
+      <a href="area.html">Area</a>
+    </nav>
+    <div class="container">
+      <h1>Calculate Hypotenuse</h1>
+      <img src="/hypotenuse.png" alt="" id="hypotenuse" />
+      <form>
+        <div class="input-container">
+          <input
+            type="number"
+            class="side-input"
+            placeholder="Enter a here"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <input
+            type="number"
+            class="side-input"
+            placeholder="Enter b here"
+            required
+          />
+        </div>
+        <button id="calculate-hypotenuse" class="btn">calculate</button>
+      </form>
+
+      <div id="output" class="hypo-output"></div>
+    </div>
+  </body>
+  <script src="hypotenuse.js"></script>
+</html>
