@@ -1,6 +1,6 @@
 # fun-with-triangles
-#### Fun with Triangles is a web app that has 4 different modules related to traingle.
-#### It includes question and quiz on different topics related to a triangle.
+### Fun with Triangles is a web app that has 4 different modules related to traingle.
+### It includes question and quiz on different topics related to a triangle.
 
 Module 1:
 Takes the 3 angles as input from user and determine if angles provided will form a triangle
